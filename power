@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x,y,i;
+int z=1;
+printf("Enter base and exponent\n");
+scanf("%i %i",&x,&y);
+for(i=y;i>0;i--)
+{
+    z=z*x;
+}
+printf("Result is :%i",z);
+    return 0;
+}
